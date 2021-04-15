@@ -1,31 +1,125 @@
+
+html{
+    height: 531px;
+    width: 1920px;
+}
+body {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #222;
+    position: relative;
+    top: -8px;
+    
+}
+
 p {
     font-size: 100px;
     color: blue;
 }
 
-#hello img {
+.textbox-button-container {
+    flex-shrink: 0;
+    box-sizing: border-box;
+    height: 140px;
+    width: 1880px;
+    padding: 20px;
+    width: 582px;
+    max-width: 584px;
+    flex: 1;
     display: flex;
-    margin: auto auto;
-
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
 }
 
-img {
+.textbox{
+background-color: transparent;
+border: none;
+margin: 0;
+  
+padding: 0;
+color: rgba(0,0,0,.87);
+word-wrap: break-word;
+outline: none;
+display: flex;
+flex: 100%;
+margin-top: -37px;
+height: 34px;
+font-size: 16px;
+}
+
+
+.HeaderContainer {
+    position: relative;
+    width: 1920px;
+    height: 60px;
+    padding: 6px;
+    flex-shrink: 0;
+    box-sizing: border-box
+}
+
+.HeaderBar {
     display: flex;
-    margin: auto auto;
+    align-items: center;
+    box-sizing:border-box;
+    width: 1908px;
+    height: 48px;
+    padding: 6px;
+   
+}
+
+.logo-container {
+    max-height: 92px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   
 }
 
-.image img {
-    display: flex;
-    margin: auto auto;
-
+.logo-containerv2 {
+    height: 100%;
+    margin-top: auto;
 }
 
-.button {
-    font-size: 14px;
-    border-radius: 3px;
-    color:blueviolet;
+.lnXdpd {
+    
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    
+}
+
+ .button-container-contain {
     position: relative;
-    left: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 18px;
+    top: 53px;
+    height: 70px;
+} 
+
+/*.button-container {
+    max-height: 364px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}*/
+
+
+.button {
+    font-size: 20px;
+    background-color: #f8f9fa;
+    border-radius: 3px;
+    color:rgb(0, 0, 0);
+    
+}
+    
+.textbox-container {
+    height:1920px;
+    width:140px;
+    padding: 20px;
+
 }
 
