@@ -91,7 +91,7 @@ font-size: 16px;
 }
 
  .button-container-contain {
-    position: relative;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,18 +108,87 @@ font-size: 16px;
 }*/
 
 
-.button {
-    font-size: 20px;
-    background-color: #f8f9fa;
-    border-radius: 3px;
-    color:rgb(0, 0, 0);
+.buttonSearch {
     
+    font-size: 14px;
+    font: arial, sans-serif;
+    background-color: #f8f9fa;
+    width: 127.367px;
+    height: 36px;
+    object-position: center center;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px;
+    border-radius: 4px;
+    margin: 11px 4px;
+    
+}
+
+.buttonLucky {
+    font-size: 14px;
+    font: arial, sans-serif;
+    background-color: #f8f9fa;
+    height: 36px;
+    padding: 0 16px;
+    border: 1px;
+    border-radius: 4px;
+    margin: 11px 4px;
+    min-width: 54px;
+    
+}
+
+.fit {
+    object-fit: contain;
+    object-position: center center;
+    text-align: center;
 }
     
 .textbox-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height:1920px;
     width:140px;
     padding: 20px;
 
 }
 
+/*form {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    object-fit: contain;
+    object-position: center bottom;
+}*/
+
+.center {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 160px;
+    padding: 20px;
+}
+
+.positionbottom {
+    object-fit: contain;
+    object-position: center;
+    padding-top: 18px;
+    top: 53px;
+    z-index: 0;
+   
+}
+
+.searchboxcenter{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchbox {
+    width: 584px;
+    height: 46px;
+
+}
