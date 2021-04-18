@@ -1,16 +1,42 @@
-
-html{
-    height: 531px;
-    width: 1920px;
+html {
+ width: 100%;
+ height: 100%;
+ overflow:hidden;
 }
+
+
+
+ul{
+    width: 95%;
+    height: auto;
+    margin: 0;
+}
+li {
+    display: inline;
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+}
+
 body {
+    height: 100%;
     font-size: 14px;
     font-family: arial, sans-serif;
     color: #222;
-    position: relative;
     top: -8px;
+    margin: 0px;
     
 }
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    
+}
+
+
 
 p {
     font-size: 100px;
@@ -50,7 +76,7 @@ font-size: 16px;
 
 .HeaderContainer {
     position: relative;
-    width: 1920px;
+    width: 100vw;
     height: 60px;
     padding: 6px;
     flex-shrink: 0;
@@ -60,43 +86,33 @@ font-size: 16px;
 .HeaderBar {
     display: flex;
     align-items: center;
-    box-sizing:border-box;
-    width: 1908px;
+    box-sizing: border-box;
+    width: 1920px;
     height: 48px;
     padding: 6px;
    
 }
 
 .logo-container {
+    height: 30vh;
     min-height: 92px;
-    max-height: 292px;
-    position: relative;
+    max-height: 290px;
+    
+}   
+
+.logo-containerv2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-shrink: 0;
-    flex-wrap: nowrap;
-    
 }
 
-.logo-containerv2 {
-    height: 100%;
-    margin-top: auto;
+.logoFlexChanges{
+    
     box-sizing: border-box;
-    flex-shrink: 0;
-    min-height: 92px;
-    max-height: 292px;
-    flex-wrap: nowrap;
+    justify-content: flex-end;
 }
 
-.lnXdpd {
-    
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: contain;
-    object-position: center bottom;
-    
-}
+
 
  .button-container-contain {
     
@@ -175,18 +191,18 @@ font-size: 16px;
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
-    height: 160px;
-    padding: 20px;
+    height: auto;
+
 }
 
 .positionbottom {
-    object-fit: contain;
-    object-position: center;
-    padding-top: 18px;
+    position: relative;
+    display: flex;
+    justify-content: center;
     top: 53px;
     z-index: 0;
-   
 }
 
 .searchboxcenter{
@@ -194,6 +210,7 @@ font-size: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100px;
 }
 
 .searchbox {
@@ -233,8 +250,79 @@ height: 54px;
     
 
 }
-
+ .headernavbarposition{
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: auto;
+ }
 
 #font18 {
     font-size: 20px;
+}
+
+#font18app {
+    font-size: 20px;
+    margin-top: 0px;
+    padding-top: 6px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.lnXdpd {
+    
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+}
+
+.MalaysiaFooterContainer {
+min-height: 49px;
+max-height: 49px;
+background-color:  #f2f2f2;
+}
+.Malaysia {
+    display: flex;
+    flex-direction: row;
+    object-position: center;
+    position:relative;
+    padding: 20px;
+    padding-left: 30px;
+    border-bottom: solid 1px #dadce0;
+}
+.EndFooterContainer {
+min-height: 49px;
+max-height: 49px;
+background-color:  #f2f2f2;
+
+}
+
+.End {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    position:relative;
+    padding-top: 5px;
+}
+
+.li1 {
+    display: inline;
+    float: left;
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    
+}
+
+.padding0{
+    padding-left: 22px;
+    margin-top: 4px;
+    
+
 }
