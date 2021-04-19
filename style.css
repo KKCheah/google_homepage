@@ -96,7 +96,7 @@ font-size: 16px;
 .logo-container {
     height: 30vh;
     min-height: 92px;
-    max-height: 290px;
+    max-height: 293px;
     
 }   
 
@@ -148,6 +148,17 @@ font-size: 16px;
     
 }
 
+.buttonSearch:hover {
+background-color: rgb(248, 25, 25);
+box-shadow: 0 1px 6px rgba(32,33,36,.28);
+border-color: rgba(223,225,229,0);
+}
+.buttonLucky:hover {
+    background-color: rgb(47, 25, 248);
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+    }
+
 .buttonLucky {
     font-size: 14px;
     font: arial, sans-serif;
@@ -188,12 +199,13 @@ font-size: 16px;
 }*/
 
 .center {
-    position: relative;
+    
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    height: 200px;
     align-items: center;
-    height: auto;
+    
+    
 
 }
 
@@ -201,7 +213,7 @@ font-size: 16px;
     position: relative;
     display: flex;
     justify-content: center;
-    top: 53px;
+    margin-top: 18px;
     z-index: 0;
 }
 
@@ -210,17 +222,18 @@ font-size: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100px;
+    background-image: url(https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Asearch);
+    
 }
 
-.searchbox {
+.searchbox  {
     width: 584px;
     height: 44px;
     background-color: #fff;
     border: 1px solid #dfe1e5;
     box-shadow: none;
     border-radius: 24px;
-    margin-top: 6px;
+    margin-top: 26px;
     
 }
 
@@ -229,25 +242,24 @@ background-color: #fff;
 box-shadow: 0 1px 6px rgba(32,33,36,.28);
 border-color: rgba(223,225,229,0);
 border-radius: 24px;
+outline-width: 0px;
 }
 
 .IconContainer {
-height: 54px;
+height: 100px;
+margin-top: 50px;
 }
 
 .IconPosition {
-    margin-top: 13px;
-    margin-left: 13px;
-
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 5px;
     }
 
 .material-icons{
-    display: flex;
-    align-items: center;
     height: 50px;
     color: #9aa0a6;
     font-size: 20px;
-    
 
 }
  .headernavbarposition{
@@ -325,4 +337,26 @@ background-color:  #f2f2f2;
     margin-top: 4px;
     
 
+}
+
+.test[type=text] {
+    width: 584px;
+    height: 44px;
+    background-color: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin-top: 26px;
+}
+
+.searchiconandbar{
+    display: inline;
+}
+
+input {
+    font-size: 20px;
+}
+
+input:focus {
+    outline: none;
 }
